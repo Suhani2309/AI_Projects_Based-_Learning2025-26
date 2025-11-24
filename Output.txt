@@ -1,0 +1,24 @@
+?- start.
+--- TREASURE HUNT GAME STARTED ---
+You are at position (1,1).
+Available moves: move(up). move(down). move(left). move(right).
+true.
+
+?- move(up).
+Moved up.
+Clue: You feel a chill!
+true.
+
+?- move(right).
+Moved right.
+Clue: You feel a sparkle!
+true.
+
+?- move(right).
+Moved right.
+true.
+
+?- move(up).
+Moved up.
+Congratulations! You found the treasure!
+true.
